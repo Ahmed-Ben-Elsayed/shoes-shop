@@ -1,0 +1,41 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+nav .search{
+    position: relative;
+}
+nav .search input{
+    width: 100%;
+    padding: 6px;
+    border-radius: 5px;
+    outline: none;
+    border:0.5px solid #ccc;
+}
+nav .search .IoSearch{
+    position: absolute;
+    right: 0px;
+    top: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+nav .nav-cart{
+    font-size: 25px;
+    cursor: pointer;
+}
+.ccart{
+    position: relative;
+}
+.ccart span{
+    position: absolute;
+    background-color:green;
+    color: white;
+    padding: 5px;
+    left: 30px;
+    font-size: 14px;
+    border-radius: 50%;
+}
+

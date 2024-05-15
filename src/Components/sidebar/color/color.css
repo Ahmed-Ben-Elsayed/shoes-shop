@@ -1,0 +1,19 @@
+.category label .all{
+    background-image:linear-gradient(rgb(0,225,0),rgb(0,200,200),rgb(250,100,100))
+}
+.category .black{
+    background-color: black;
+}
+.category .blue{
+    background-color: blue;
+}
+.category .red{
+    background-color: red;
+}
+.category .green{
+    background-color:green;
+}
+.category .white{
+    background-color: #fff;
+    border: 0.5px solid #ccc;
+}

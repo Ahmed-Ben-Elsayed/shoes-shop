@@ -1,0 +1,54 @@
+label{
+    gap: 10px;
+    margin-bottom:7px;
+    margin-left: 10px;
+}
+label  input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    left:6px;
+    border: none;
+    /* outline: none; */
+    /* border: #ccc solid 0.5px; */
+
+}
+ .checkmark{
+     height: 13px;
+     margin-top: 3px;
+     position: relative;
+     z-index: -1000;
+     width: 14px;
+     background-color: #eee;
+     border-radius: 50%;
+     cursor: pointer;
+}
+ /* label:hover input ~ .checkmark {
+    background-color: #ccc!important;
+} */
+
+label input:checked ~ .checkmark{
+    background-color: rgb(54, 131, 255);
+    background-image:none;
+    
+}
+     .checkmark::after{
+        content: "";
+        position: absolute;
+        display: none;
+    }
+label input:checked ~ .checkmark::after{
+    display: block;
+}
+ label .checkmark::after{
+    top: 3px;
+    left: 3.6px;
+    width: 6.6px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.category{
+    border-bottom: 0.5px solid #ccc;
+}
